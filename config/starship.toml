@@ -1,0 +1,49 @@
+# prompt-wide config
+format = """
+$username\
+$sudo\
+$directory\
+$git_branch\
+$python
+$character"""
+add_newline = true
+
+# don't show how long the command took to execute
+[cmd_duration]
+disabled = true
+
+# show the username
+[username]
+show_always = true
+format = "[$user]($style) "
+style_user = "bold bright-green"
+
+# show when sudo is cached
+[sudo]
+format = "as [root]($style) "
+style = "bold bright-red"
+disabled = false
+
+# show python version when in a folder that contains python files
+[python]
+format = "with [$symbol$version]($style) "
+symbol = " "
+style = "bold green"
+
+# info about current directory
+[directory]
+format = "in [$path]($style) "
+style = "bold bright-cyan"
+truncation_length = 3
+truncation_symbol = "../"
+
+[package]
+disabled = true
+
+# don't track battery status
+[battery]
+disabled = true
+
+# git branch
+[git_branch]
+
