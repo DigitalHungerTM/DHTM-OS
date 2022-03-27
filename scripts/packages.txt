@@ -1,0 +1,7 @@
+# a list of packages that these scripts need to work properly
+
+--- PAT.sh ---
+xclip
+
+--- brightness.sh ---
+rust-notify
