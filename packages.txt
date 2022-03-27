@@ -1,0 +1,23 @@
+# A list of all packages that I installed on my system
+cpufetch
+curl
+cmatrix
+dconf Editor
+Discord
+Extensions
+GIMP
+htop
+Libre Office
+mailspring
+mpv
+p3x-onenote
+pycharm-professional
+Raspberry Pi Imager
+spotify
+Steam
+Sublime Text
+Tweaks
+Visual Studio Code
+WALC
+webstorm
+Xterm
