@@ -1,5 +1,6 @@
 #!/bin/bash
 # this is a script that sets the brightness based on the current time
+# currently not working (don't know why)
 
 # takes the current time in hours
 time=`date | cut -d' ' -f6 | cut -d':' -f1`

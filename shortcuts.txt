@@ -1,0 +1,3 @@
+Close Window: Ctrl+E
+Launch Terminal: Super+Return
+Choose Brightness: Super+B

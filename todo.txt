@@ -1,0 +1,12 @@
+TODO:
+> backup all local files either with git or with google drive
+> install 22.04
+> make appearance the way that I like (probably close to default)
+> install programs
+> make sure brightness is working?
+> cache git credentials so I don't have to enter them every time
+> add custom shortcuts (see shortcuts file)
+> add custom startup scripts
+> log in to things
+> find better whatsapp client
+> 

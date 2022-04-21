@@ -1,0 +1,3 @@
+clock left
+Gsconnect (KDE connect port)
+workspace scroll

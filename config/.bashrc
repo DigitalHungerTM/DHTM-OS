@@ -144,10 +144,12 @@ alias aptupd='sudo apt update'
 alias aptupg='sudo apt upgrade'
 alias aptin='sudo apt install'
 alias aptrm='sudo apt remove'
+alias aptls='apt list --installed'
 
 # snap package manager
 alias snapin='sudo snap install'
 alias snaprm='sudo snap remove'
+alias snapls='snap list'
 
 # cd up
 alias ..='cd ..'

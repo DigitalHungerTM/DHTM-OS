@@ -1,23 +1,25 @@
 # A list of all packages that I installed on my system
 cpufetch
 curl
-cmatrix
-dconf Editor
 Discord
-Extensions
+Extensions (don't know what this package is anymore)
 GIMP
 htop
-Libre Office
-mailspring
-mpv
-p3x-onenote
+Libre Office (nice for quick editing)
+mailspring email client
 pycharm-professional
 Raspberry Pi Imager
 spotify
 Steam
-Sublime Text
 Tweaks
 Visual Studio Code
-WALC
-webstorm
-Xterm
+some whatsapp client
+webstorm professional
+jupyter
+git
+pip3
+starship command line prompt (look on the interwebs)
+KDE connect (this might be a gnome tweak)
+
+to uninstall:
+
