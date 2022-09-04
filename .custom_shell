@@ -1,0 +1,40 @@
+# a file that contains customizations for shell commands
+# this file can be sourced by .bashrc
+
+# starship prompt
+# ~/.config/starship.toml
+eval "$(starship init bash)"
+
+### ALIASES ###
+# wallpaper
+alias wallpaper='bash ~/.scripts/auto_wallpaper.sh'
+
+# confirmations
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+
+# apt package manager
+alias aptup='sudo apt update && sudo apt upgrade'
+alias aptupd='sudo apt update'
+alias aptupg='sudo apt upgrade'
+alias aptin='sudo apt install'
+alias aptrm='sudo apt remove'
+alias aptls='apt list --installed | grep -v "installed,automatic"'
+
+# snap package manager
+alias snapin='sudo snap install'
+alias snaprm='sudo snap remove'
+alias snapls='snap list'
+alias snapup='sudo snap refresh'
+
+# general updates
+alias update='sudo apt update && sudo apt upgrade -y && sudo snap refresh'
+
+# karora
+alias karora='ssh s4765079@karora.let.rug.nl'
+
+# xampp
+alias lampp='sudo /opt/lampp/lampp'
+alias cdlampp='cd /opt/lampp/htdocs'
